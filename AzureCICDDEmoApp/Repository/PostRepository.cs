@@ -5,6 +5,11 @@ namespace AzureCICDDEmoApp.Repository
 {
     public class PostRepository : IPostRepository
     {
+        public void AddPosts()
+        {
+            throw new NotImplementedException();
+        }
+
         public List<PostViewModel> GetPosts()
         {
             var posts = new List<PostViewModel> {
