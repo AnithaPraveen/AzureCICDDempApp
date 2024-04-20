@@ -5,5 +5,7 @@ namespace AzureCICDDEmoApp.Repository
     public interface IPostRepository
     {
         List<PostViewModel> GetPosts();
+
+        void AddPost();
     }
 }
