@@ -5,10 +5,10 @@ namespace AzureCICDDEmoApp.Repository
 {
     public class PostRepository : IPostRepository
     {
-        public void AddPosts()
-        {
-            throw new NotImplementedException();
-        }
+        //public void AddPosts()
+        //{
+        //    throw new NotImplementedException();
+        //}
 
         public List<PostViewModel> GetPosts()
         {
@@ -17,7 +17,8 @@ namespace AzureCICDDEmoApp.Repository
        Description ="DevOps Demo Description 1", Author="Mukesh Kumar"},
    new PostViewModel(){ PostId =102, Title = "DevOps Demo Title 2", Description ="DevOps Demo Description 2", Author="Banky Chamber"},
   new PostViewModel(){ PostId =103, Title = "DevOps Demo Title 3", Description ="DevOps Demo Description 3", Author="Rahul Rathor"},
-        };
+       new PostViewModel(){ PostId =104, Title = "DevOps Honey Title 3", Description ="DevOps Honey Description 3", Author="Honey Anitha"}
+            };
   return posts;
         }
     }
