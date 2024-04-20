@@ -6,6 +6,6 @@ namespace AzureCICDDEmoApp.Repository
     {
         List<PostViewModel> GetPosts();
 
-        void AddPost();
+        void AddPosts();
     }
 }
